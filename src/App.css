@@ -2,37 +2,102 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(auto, 1fr);
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  grid-column-gap: 0px;
+  grid-row-gap: 5px;
+  width:80% !important;
+  margin:30px auto;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .parent > .item{
+     
+      padding:20px;
+      display: flex;
+      border-bottom: 1px solid rgba(107, 107, 107, 0.726);
+      
   }
-  to {
-    transform: rotate(360deg);
+  .img-box img{
+      max-width: 100%;
+      -webkit-box-shadow: 0px 7px 9px 4px rgba(0,0,0,0.47); 
+      box-shadow: 0px 7px 9px 4px rgba(0,0,0,0.47);
   }
+
+  .img-box{
+    width:45%;
+    height:60%;
+  }
+
+  .text-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:45%;
+    margin-left: 10px;
+    text-align: left;
+    height:50%;
+  }
+
+  .text-box p{
+    line-height: 1.6;
+  }
+  .price{
+  
+    
+    font-weight: bold;
+  }
+
+  /*************************************/
+  /*main*/
+
+  main{
+    padding:60px 0px !important; 
+  }
+
+  /* Nav Bar */ 
+
+ nav.navbar{
+  background-color:  #1D53BE !important;
+   
 }
+.navbar-brand,
+.nav-link{
+  color:#fff !important;
+}
+
+.navbar-brand:hover,
+.nav-link:hover{
+  color:rgb(204, 204, 204) !important;
+} 
+
+/*************************************/
+  /* Admin */ 
+   .img-box-admin{
+      width:5%;
+  }
+  .img-box-admin img{
+    max-width: 100%;
+  }
+  .rowbox{
+    width:80% !important;
+    margin: 0 auto  !important;
+    border-bottom:  1px solid rgb(212, 212, 212);
+    margin-bottom: 20px !important;
+    padding-bottom: 20px !important;
+
+
+  }
+  .rowbox p {
+    width:40% !important ;
+    word-wrap: break-word !important;
+  }
+  .rowbox:hover{
+    border-bottom:  1px solid #617cb3; 
+  } 
+
+  /*****************************/

@@ -1,0 +1,46 @@
+{
+  "books": [
+    {
+      "title": "Catching Fire",
+      "price": "10",
+      "imgPath": "/img/book6.jpg",
+      "des": "book description here",
+      "id": 6
+    },
+    {
+      "title": "book7",
+      "des": "The fundamental rule of all readers is to never judge a book by its cover, but ilhether we spot a gorgeous book in someone’s hands or displayed in a",
+      "price": "20",
+      "imgPath": "https://images1.penguinrandomhouse.com/cover/9780399179532",
+      "id": 7
+    },
+    {
+      "title": "Alkemisten",
+      "des": "The Alchemist is a novel by Brazilian author Paulo Coelho that was first published in 1988. Originally",
+      "price": "2.5",
+      "imgPath": "https://static-se.bookis.com/books/63345/full.jpg",
+      "id": 8
+    },
+    {
+      "title": "Kafka on the Shore",
+      "des": "\"Kafka on the Shore\" follows the fortunes of two remarkable characters. Kafka Tamura runs away from home at fifteen, under the shadow of his father's dark prophesy. The aging Nakata, tracker of lost cats,",
+      "price": "10",
+      "imgPath": "https://static-se.bookis.com/books/822/full.jpg",
+      "id": 9
+    },
+    {
+      "title": "The Body Keeps the Score",
+      "price": "11.99",
+      "imgPath": "https://images-na.ssl-images-amazon.com/images/I/41D3enj6JVS._SX324_BO1,204,203,200_.jpg",
+      "des": "Essential reading for anyone interested in understanding and treating traumatic stress and the scope of its impact on society.” —Alexander McFarlane, Director of the Centre for Traumatic Stress Studies",
+      "id": 10
+    },
+    {
+      "title": "Tales from the Perilous Realm",
+      "price": "12.99",
+      "imgPath": "https://images-na.ssl-images-amazon.com/images/I/41iY7apNjYS._SX331_BO1,204,203,200_.jpg",
+      "des": "The book is the perfect opportunity for fans of Middle-earth to enjoy some of Tolkien’s often overlooked yet most creative storytelling. With dragons and sand sorcerers, sea monsters and hobbits, knights and dwarves, this collection contains all the classic elements for Tolkien buffs of all ages.",
+      "id": 11
+    }
+  ]
+}
